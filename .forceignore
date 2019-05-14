@@ -10,3 +10,6 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
+
+#Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:AppMenu and file name:AppSwitcher.
+AppSwitcher.appMenu

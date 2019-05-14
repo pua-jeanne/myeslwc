@@ -1,7 +1,23 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/customerTile": [
+                "customerTile/customerTile.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/customerList": [
+                "customerList/customerList.js"
+            ],
+            "c/reservationHelper": [
+                "reservationHelper/reservationHelper.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [
