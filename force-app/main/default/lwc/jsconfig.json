@@ -2,6 +2,12 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "c/customerDetailForm": [
+                "customerDetailForm/customerDetailForm.js"
+            ],
+            "c/customerList": [
+                "customerList/customerList.js"
+            ],
             "c/customerTile": [
                 "customerTile/customerTile.js"
             ],
@@ -11,11 +17,20 @@
             "c/pubsub": [
                 "pubsub/pubsub.js"
             ],
-            "c/customerList": [
-                "customerList/customerList.js"
+            "c/reservationDetailForm": [
+                "reservationDetailForm/reservationDetailForm.js"
             ],
             "c/reservationHelper": [
                 "reservationHelper/reservationHelper.js"
+            ],
+            "c/reservationHelperForm": [
+                "reservationHelperForm/reservationHelperForm.js"
+            ],
+            "c/reservationTile": [
+                "reservationTile/reservationTile.js"
+            ],
+            "c/reservationList": [
+                "reservationList/reservationList.js"
             ]
         },
         "experimentalDecorators": true
